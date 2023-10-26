@@ -1,6 +1,7 @@
 @layer base, component, page;
 
-@import url("components/_base.css") layer(base);
+
+@import url('components/_base.css') layer(base);
 
 @import url("components/container.css") layer(component);
 @import url("components/helpers.css") layer(component);
