@@ -2,6 +2,7 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+    base: "https://naremare.github.io/menu-react/my-bank/",
     build: {
         rollupOptions: {
             input: {
